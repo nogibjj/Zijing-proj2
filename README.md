@@ -2,7 +2,7 @@
 Command line bash tool.
 
 ## Key Objectives of Project
-In project 2, I build up a Bash command-line tool that performs data analysis task. And build docker container to deploy and run it.
+In project 2, I build up a Bash command-line tool that performs data analysis task. And build docker container, deploy and run it on Docker Hub and AWS ECR.
 
 ## Structure Diagram
 ![phrase-repeater-docker](https://user-images.githubusercontent.com/58792/191573025-72d39f65-4dbb-4cd5-b4a3-80f6f45ff05e.png)

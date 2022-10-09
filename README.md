@@ -8,7 +8,7 @@ In project 2, I build up a Bash command-line tool that performs data analysis ta
 ![phrase-repeater-docker](https://user-images.githubusercontent.com/58792/191573025-72d39f65-4dbb-4cd5-b4a3-80f6f45ff05e.png)
 
 ## Demo Video Link
-
+https://github.com/nogibjj/Zijing-proj2/blob/main/demo-video.mp4
 
 ##  Main Steps
 ### 1. Build python command line file 

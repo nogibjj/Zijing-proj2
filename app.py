@@ -1,14 +1,12 @@
 import streamlit as st
 import pandas as pd
-from dblib.querydb import find_job_avg_salary
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 
 
 @st.cache(persist=True)
 def load_data():
-    result = find_job_avg_salary()
-    return pd.DataFrame(result, columns=["avg_salary", "job_title"])
+    return pd.read_csv('ds_salaries.csv')
 
 
 st.title("Job Salary")

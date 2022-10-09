@@ -12,8 +12,8 @@ In project 2, I build up a Bash command-line tool that performs data analysis ta
 
 ##  Main Steps
 ### 1. Build python command line file 
-In query.py, build up 2 command describe and query-most-n
-In app.py, build up streamlit app to build up web front, display and do word count analysis.
+* In query.py, build up 2 command describe and query-most-n
+* In app.py, build up streamlit app to build up web front, display and do word count analysis.
 
 ### 2. Create a new bash file
 `sh command.sh` to run query.py and app.py
@@ -22,7 +22,7 @@ In app.py, build up streamlit app to build up web front, display and do word cou
 * install docker 
 * build `docker build .`
 * list `docker image ls`
-* run with image id `docker run -it 93e112b1a2e7 /bin/bash command.sh
+* run with image id `docker run -it 93e112b1a2e7 /bin/bash command.sh`
 
 ### Push to DockerHub
 * docker login: `docker login -u <hub-user -p $DOCKER_HUB`
